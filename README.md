@@ -2,7 +2,7 @@
 # Module-1 Challenge HTML CSS Git Challenge: Code Refactor
 ---
 # Objective
-- 
+- Refractor code
 
 ---
 # Technology
