@@ -84,9 +84,10 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/*content and benefits sections were out of order. Moved content up to make more logical sense*/
-/*.search-engine-optimization, .online-reputation-management, .social-media-marketing consolidated
-and labeled .content section to receive same outcome */
+/*content and benefits sections were out of order. Moved content up to make more 
+logical sense*/
+/*.search-engine-optimization, .online-reputation-management, .social-media-marketing
+ consolidated and labeled .content section to receive same outcome */
 .content section {
     margin-bottom: 20px;
     padding: 50px;
