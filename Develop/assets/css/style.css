@@ -27,17 +27,17 @@ body {
     color: var(--white-1)
 }
 
-h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.seo {
+/* h1 was deleted from below styling as it was unnecessary*/
+.header .seo {
     color: var(--white-2);
     font-size: 48px;
 }
-
-nav {
+/* .header div became nav to match html semantics*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -84,7 +84,28 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*content and benefits sections were out of order. Moved content up to make more logical sense*/
+/*.search-engine-optimization, .online-reputation-management, .social-media-marketing consolidated
+and labeled .content section to receive same outcome */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--font-2);
+    background-color: var(--light-blue);
+    color: var(--white-1)
+}
+/*.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img,
+edited to .content img, to have same effect and reduce redundancy   */
+.content img {
+    max-height: 200px;
+}
+/*.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2,
+edited to .content h2, to have same effect and reduce redundancy   */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 .benefits {
     margin-right: 20px;
     padding: 40px;
@@ -114,32 +135,13 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: var(--font-2);
-    background-color: var(--light-blue);
-    color: var(--white-1)
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .footer {
     padding: 30px;
     clear: both;
     font-family: var(--font-1);
     text-align: center;
 }
-
+/* Footer header changed to h4 to differentiate from main section */
 .footer h4 {
     font-size: 20px;
 }
