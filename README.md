@@ -13,7 +13,7 @@
 ---
 [Module-1](https://joncerruti.github.io/module-1/)
 
-![Website Screenshot](develop/assets/images/Module-1-Website.png)
+![Website Screenshot](main/develop/assets/images/Module-1-Website.png)
 
 
 
